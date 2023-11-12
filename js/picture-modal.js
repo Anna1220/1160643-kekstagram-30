@@ -59,7 +59,7 @@ const renderComments = (comments) => {
       break;
     }
 
-    commentsFragment.append(createCommentElement(allComments[showCommentsCount]));
+    commentsFragment.append(createCommentEl(allComments[showCommentsCount]));
   }
 
   receivedCommentsCount = receivedCommentsCount + RECEIVED_COMMENTS_INCREASE_COUNT;
